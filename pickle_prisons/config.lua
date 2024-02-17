@@ -379,17 +379,17 @@ Config.Prisons = {
             color = 44,
             scale = 0.85,
         },
-        hospital = {
-            coords = vector3(1768.1461, 2570.0391, 45.7299),
-            heading = 310.6851
-        },
+        -- hospital = {
+        --     coords = vector3(1768.1461, 2570.0391, 45.7299),
+        --     heading = 310.6851
+        -- },
         release = {
-            coords = vector3(1837.1382, 2591.4004, 45.0144),
+            coords = vector3(1851.86, 2585.7, 45.67),
             heading = 175.6774
         },
         breakout = {
             start = {
-                coords = vector3(1761.71, 2512.18, 49.22),
+                coords = vector3(1762.17, 2511.88, 49.21),
                 heading = 211.9629
             }, 
             enter = {
@@ -415,22 +415,22 @@ Config.Prisons = {
                 sections = {
                     {
                         name = "lift",
-                        coords = vector3(1737.82, 2491.7, 46.12),
+                        coords = vector3(1737.82, 2491.69, 46.12),
                         heading = 202.0358
                     },
                     {
                         name = "situp",
-                        coords = vector3(1728.62, 2497.98, 45.84),
+                        coords = vector3(1729.65, 2493.73, 45.84),
                         heading = 123.3956
                     },
                     {
                         name = "pushup",
-                        coords = vector3(1733.32, 2499.72, 45.85),
+                        coords = vector3(1733.28, 2493.31, 45.83),
                         heading = 119.1793
                     },
                     {
                         name = "pullup",
-                        coords = vector3(1727.35, 2497.18, 45.84),
+                        coords = vector3(1727.31, 2497.18, 45.84),
                         heading = 118.0926
                     },
                 }
@@ -438,18 +438,18 @@ Config.Prisons = {
             {
                 name = "clean",
                 model = {hash = `u_m_y_prisoner_01`},
-                coords =vector3(1782.29, 2502.29, 45.85),
+                coords =vector3(1782.36, 2502.15, 45.85),
                 heading = 111.6702,
                 randomSection = true, -- Chooses random section when true, or top-to-bottom when false.
                 sections = {
                     {
                         name = "sweep",
-                        coords =vector3(1772.42, 2498.78, 45.85), -- Location of the cell.
+                        coords =vector3(1768.51, 2490.18, 45.85), -- Location of the cell.
                         heading = 224.72, -- Direction to face the player upon spawn.
                     },
                     {
                         name = "sweep",
-                        coords = vector3(1774.48, 2496.0, 45.85), -- Location of the cell.
+                        coords = vector3(1766.01, 2494.59, 45.85), -- Location of the cell.
                         heading = 207.8018, -- Direction to face the player upon spawn.
                     },
                     {
@@ -459,17 +459,17 @@ Config.Prisons = {
                     },
                     {
                         name = "sweep",
-                        coords = vector3(1768.32, 2490.26, 45.85), -- Location of the cell.
+                        coords = vector3(1758.47, 2484.5, 45.85), -- Location of the cell.
                         heading = 96.14, -- Direction to face the player upon spawn.
                     },
                     {
                         name = "sweep",
-                        coords = vector3(1768.32, 2490.26, 45.85), -- Location of the cell.
+                        coords = vector3(1750.73, 2483.55, 45.85), -- Location of the cell.
                         heading = 54.77, -- Direction to face the player upon spawn.
                     },
                     {
                         name = "sweep",
-                        coords = vector3(1768.32, 2490.26, 45.85), -- Location of the cell.
+                        coords = vector3(1745.04, 2480.9, 45.85), -- Location of the cell.
                         heading = 53.33 , -- Direction to face the player upon spawn.
                     },
                 }
@@ -483,56 +483,56 @@ Config.Prisons = {
                 sections = {
                     {
                         name = "stock",
-                        coords = vector3(1776.89, 2562.76, 45.62), -- Location of the cell.
-                        heading = 97.08, -- Direction to face the player upon spawn.
+                        coords = vector3(1776.97, 2563.31, 45.62), -- Location of the cell.
+                        heading = 100.32, -- Direction to face the player upon spawn.
                     },
                     {
                         name = "cook",
-                        coords = vector3(1782.5, 2566.55, 45.62), -- Location of the cell.
-                        heading = 173.79, -- Direction to face the player upon spawn.
+                        coords = vector3(1782.76, 2566.57, 45.62), -- Location of the cell.
+                        heading = 184.81, -- Direction to face the player upon spawn.
                     },
                     {
                         name = "toppings",
-                        coords = vector3(1782.7, 2561.16, 45.62), -- Location of the cell.
-                        heading = 179.1711, -- Direction to face the player upon spawn.
+                        coords = vector3(1784.23, 2561.26, 45.62), -- Location of the cell.
+                        heading = 174.68, -- Direction to face the player upon spawn.
                     },
                     {
                         name = "delivery",
-                        coords = vector3(1787.87, 2546.2, 45.62), -- Location of the cell.
-                        heading = 140.89, -- Direction to face the player upon spawn.
+                        coords = vector3(1783.88, 2544.3, 45.62), -- Location of the cell.
+                        heading = 170.11, -- Direction to face the player upon spawn.
                     },
                 }
             },
         },
         cells = {
             {
-                coords = vector3(1772.76, 2497.03, 45.85), -- Location of the cell.
-                heading = 207.8018, -- Direction to face the player upon spawn.
+                coords = vector3(1771.59, 2502.39, 45.86), -- Location of the cell.
+                heading = 213.7, -- Direction to face the player upon spawn.
                 size = 1.5, -- Size to check to see if any players are inside the cell.
             },
             {
-                coords = vector3(1767.49, 2499.96, 45.86), -- Location of the cell.
-                heading = 207.8018, -- Direction to face the player upon spawn.
+                coords = vector3(1765.57, 2500.04, 45.85), -- Location of the cell.
+                heading = 219.37, -- Direction to face the player upon spawn.
                 size = 1.5, -- Size to check to see if any players are inside the cell.
             },
             {
-                coords = vector3(1771.74, 2503.37, 45.85), -- Location of the cell.
-                heading = 207.8018, -- Direction to face the player upon spawn.
+                coords = vector3(1760.32, 2496.84, 45.85), -- Location of the cell.
+                heading = 208.04, -- Direction to face the player upon spawn.
                 size = 1.5, -- Size to check to see if any players are inside the cell.
             },
             {
-                coords = vector3(1751.47, 2491.03, 45.84), -- Location of the cell.
-                heading = 207.8018, -- Direction to face the player upon spawn.
+                coords = vector3(1773.98, 2489.49, 45.85), -- Location of the cell.
+                heading = 29.42, -- Direction to face the player upon spawn.
                 size = 1.5, -- Size to check to see if any players are inside the cell.
             },
             {
-                coords = vector3(1758.47, 2499.32,44.85), -- Location of the cell.
-                heading = 207.8018, -- Direction to face the player upon spawn.
+                coords = vector3(1768.33, 2485.67, 45.85), -- Location of the cell.
+                heading = 22.29, -- Direction to face the player upon spawn.
                 size = 1.5, -- Size to check to see if any players are inside the cell.
             },
             {
-                coords = vector3(1769.47, 2482.49, 44.85), -- Location of the cell.
-                heading = 207.8018, -- Direction to face the player upon spawn.
+                coords = vector3(1763.13, 2482.53, 45.85), -- Location of the cell.
+                heading = 33.75, -- Direction to face the player upon spawn.
                 size = 1.5, -- Size to check to see if any players are inside the cell.
             },
         },
