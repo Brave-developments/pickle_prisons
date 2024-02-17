@@ -5,6 +5,9 @@
 
 https://www.youtube.com/watch?v=flCTCk4hW7g
 
+pickle_prisons with gabz prison
+https://github.com/PickleModifications/pickle_prisons
+
 ## What is this?
 
 This is a one-size fits all solution for jail systems, with high quality features that have yet to be seen in a free prison script. 
